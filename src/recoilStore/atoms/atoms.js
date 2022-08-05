@@ -1,5 +1,5 @@
 import { atom, selector, selectorFamily } from 'recoil';
-import ArticleService from './ArticleService';
+import ArticleService from '../../shared/ArticleService';
 
 export const darkModeState = atom({
   key: 'darkModeState',
